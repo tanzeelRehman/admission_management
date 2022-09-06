@@ -1,0 +1,12 @@
+
+@baseUrl = https://reqres.in
+
+
+POST https://reqres.in/api/register HTTP/1.1
+content-type: application/json
+
+{
+  "username": "zelu",
+  "email": "zelu@gmail.com",
+  "password": "password"
+}
